@@ -11,16 +11,16 @@ Company reserved ID: 0x0499
 Data: 0x0336175ABFF8FFE5FFCA03D00B4D
 
 HEX2BIN:
-Offs.	HEX		BIN					VAL
-0:		03		00000011			3		Format
-1:		36		00110110			54		Humidity *0.5
-2:		17		00010111			23		Temp, signed
-3:		5A		01011010			90		Temp fraction 1/100
-4-5:	BFF8	1011111111111000	49144	Pressure Pa
-6-7:	FFE5	1111111111100101	-27		Acceleration-X, signed
-8-9:	FFCA	1111111111001010	-54		Acceleration-Y, signed
-10-11:	03D0	0000001111010000	976		Acceleration-Z, signed
-12-13:	0B4D	0000101101001101	2893	Battery voltage millivolts
+Offset  HEX     BIN                     VAL
+0:      03      00000011                3       Format
+1:      36      00110110                54      Humidity *0.5
+2:      17      00010111                23      Temp, signed
+3:      5A      01011010                90      Temp fraction 1/100
+4-5:    BFF8    1011111111111000        49144   Pressure Pa -50000
+6-7:    FFE5    1111111111100101        -27     Acceleration-X, signed
+8-9:    FFCA    1111111111001010        -54     Acceleration-Y, signed
+10-11:  03D0    0000001111010000        976     Acceleration-Z, signed
+12-13:  0B4D    0000101101001101        2893    Battery voltage millivolts
 
 */
 
